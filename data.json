@@ -1,0 +1,105 @@
+{
+  "picBed": {
+    "current": "github",
+    "uploader": "github",
+    "smms": {
+      "token": ""
+    },
+    "github": {
+      "_configName": "Default",
+      "_id": "ad7a4209-fac2-4c6e-85da-a020ea671887",
+      "_createdAt": 1711208184602,
+      "_updatedAt": 1711208542258,
+      "repo": "bhjcbs/photo-house",
+      "branch": "main",
+      "token": "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",
+      "path": "img/",
+      "customUrl": "https://cdn.jsdelivr.net/gh/bhjcbs/photo-house"
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      }
+    },
+    "server": {
+      "port": 36677,
+      "host": "127.0.0.1",
+      "enable": true
+    },
+    "isListeningClipboard": false,
+    "showUpdateTip": true,
+    "autoStart": true,
+    "deleteCloudFile": true,
+    "autoRename": true,
+    "deleteLocalFile": false,
+    "manualPageOpen": "browser",
+    "sync": {
+      "type": "github",
+      "username": "bhjcbs",
+      "repo": "photo-house",
+      "branch": "main",
+      "token": "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",
+      "endpoint": "",
+      "proxy": "",
+      "interval": 60
+    }
+  },
+  "picgoPlugins": {},
+  "debug": true,
+  "PICGO_ENV": "GUI",
+  "needReload": false,
+  "uploader": {
+    "github": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "ad7a4209-fac2-4c6e-85da-a020ea671887",
+          "_createdAt": 1711208184602,
+          "_updatedAt": 1711208542258,
+          "repo": "bhjcbs/photo-house",
+          "branch": "main",
+          "token": "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",
+          "path": "img/",
+          "customUrl": "https://cdn.jsdelivr.net/gh/bhjcbs/photo-house"
+        }
+      ],
+      "defaultId": "ad7a4209-fac2-4c6e-85da-a020ea671887"
+    }
+  },
+  "buildIn": {
+    "compress": {
+      "quality": 60,
+      "isConvert": false,
+      "convertFormat": "png",
+      "isReSize": false,
+      "reSizeWidth": 500,
+      "reSizeHeight": 500,
+      "skipReSizeOfSmallImg": false,
+      "isReSizeByPercent": false,
+      "reSizePercent": 50,
+      "isRotate": false,
+      "rotateDegree": 0,
+      "isRemoveExif": false,
+      "isFlip": false,
+      "isFlop": false,
+      "formatConvertObj": {}
+    },
+    "watermark": {
+      "isAddWatermark": false,
+      "watermarkType": "text",
+      "isFullScreenWatermark": false,
+      "watermarkDegree": 0,
+      "watermarkText": "",
+      "watermarkFontPath": "",
+      "watermarkScaleRatio": 0.15,
+      "watermarkColor": "#CCCCCC73",
+      "watermarkImagePath": "",
+      "watermarkPosition": "southeast"
+    }
+  }
+}
